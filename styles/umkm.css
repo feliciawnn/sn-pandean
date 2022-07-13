@@ -1,0 +1,26 @@
+.title-img{
+    max-height: 70vh;
+    z-index: -1;
+    position: absolute;
+    left:0;
+    margin: 0;
+    padding: 0;
+    min-width:100%;
+    object-fit: cover;
+}
+
+.page-title{
+    height: 70vh;
+}
+
+.page-title-text{
+    color: #fff;
+    font-size: 48px;
+    position: absolute;
+    top: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
