@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 /* VIDEO BG */
 #img-bg{
     width: 100%;
@@ -78,6 +82,44 @@ button{
     align-items:center;
 }
 
+.section-content-left{
+    margin: 0 48px;
+    width: 100%;
+}
+
+.section-content-top{
+    margin-bottom: 8px;
+}
+
+.section-content-bottom{
+    margin-top: 8px;
+}
+
+.content-card{
+    background-color: #021C10;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    height: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+.content-list{
+    text-align: left;
+}
+
+.content-list li::before {
+    content: "\2022";  
+    color: #fff; 
+    font-weight: bold; 
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em; 
+  }
 
 /* GALLERY */
 .gallery-container{
