@@ -2,31 +2,75 @@
 <html>
     <head>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        
         <link rel="stylesheet" href="./styles/header_footer.css">
+        <link rel="stylesheet" href="./styles/umkm.css">
+
         <link rel="shortcut icon" href="./images/logo.ico">
         <title>Desa Pandean | UMKM</title>
     </head>
     <body>
-        <div class="header container">
-            <div>
-                <h2 class="main-title compadre-font">DESA PANDEAN</h2>
+         <!-- HEADER -->
+         <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand compadre-font main-title" href="./index.html">DESA PANDEAN</a>
+                <button class="navbar-toggler hamburger-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <svg style="text-align: center;" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="black" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-buttons">
+                    <li class="nav-item">
+                        <a class="nav-link nav-elem" href="./index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-elem" href="./pariwisata.html">Pariwisata</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-elem nav-active" href="./umkm.html">UMKM</a>
+                    </li>
+                    </ul>
+                </div>
             </div>
-            <div class="top-navbar">
-                <a class="nav-elem" href="./index.html">Beranda</a>
-                <a class="nav-elem" href="./pariwisata.html">Pariwisata</a>
-                <a class="nav-active nav-elem" href="./umkm.html">UMKM</a>
+        </nav>
+
+        <div class="header container">
+            <div class="overlay"></div>
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto" id="vid-bg" src="./media/homepage_vid.mp4" type="video/mp4"></video>
+        </div>
+
+        <div class="container p-0 images-container">
+            <div class="row main-title-container">
+                <div class="col-10">
+                    <div class="row">
+                        <h3 class="vid-subtxt"> Desa Pandean mengajak Anda untuk menikmati suasana pegunungan dan perkebunan asri. Mari menikmati liburan aksesibel, mudah dan unik bersama kami</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="col">
+                                <h1 class="vid-txt compadre-font">
+                                    Scroll Down to Find Out More UMKM in Pandean!
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
+
         <div class="content">
-            umkm
+            pariwisata
         </div>
 
         <div class="container-fluid page-footer">
             <div class="container">
                 <div class="row">
                     <div class="col-1">
-                        <img class="logo" src="./images/logo.png">
+                        <img class="logo" src="./media/logo.png">
                     </div>
                     <div class="col">
                         <p class="footer-txt footer-top" style="font-weight: bold;">SAUJANA</p>
@@ -70,5 +114,6 @@
         </div>
 
         <script src="./javascript/header_footer.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>

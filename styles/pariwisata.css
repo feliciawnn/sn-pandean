@@ -1,0 +1,161 @@
+/* VIDEO BG */
+#img-bg{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -3;
+}
+
+.overlay{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.images-container{
+    height: 40vh;
+}
+
+.main-title-container{
+    position: absolute;
+    top: 22vh;
+    left: 48px;
+}
+
+button{
+    color: rgba(0,0,0,0.5);
+}
+
+.vid-txt{
+    color: #fff;
+    text-align: left;
+    font-size: 60px;
+}
+
+.vid-subtxt{
+    color: #fff;
+    text-align: left;
+    font-size: 26px;
+    padding-bottom: 24px;
+}
+
+.vid-icon{
+    text-align: center;
+    animation: MoveUpDown 1s linear infinite;
+}
+
+/* SECTIONS */
+.section-title{
+    text-align: center;
+    font-size: 48px;
+}
+
+.section{
+    margin-bottom: 48px;
+    animation: ease-in 5s;
+}
+
+.section-subtitle{
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.section-desc{
+    font-size: 18px;
+    text-align: center;
+    padding: 24px 0;
+}
+
+.ver-center{
+    display:flex;
+    align-items:center;
+}
+
+
+/* GALLERY */
+.gallery-container{
+    background-color: #021C10;
+    padding-bottom: 8px;
+    overflow: hidden;
+}
+
+.gal-title, .gal-subtitle{
+    color: #fff;
+    text-align: center;
+}
+
+.gal-title{
+    padding-top: 48px;
+}
+
+.gal-subtitle{
+    padding-bottom: 24px;
+}
+
+.img-wrapper{
+    width: 25vh;
+    height: 25vh;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0 8px 24px 8px;
+
+}
+
+.gal-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.gal-img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.scroll-track {
+    max-width: 350vh;
+    margin: auto;
+    padding: 16px;
+    position: relative;
+    display: flex;
+}
+
+.scroll-track::after {
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0;
+top: 0;
+}
+  
+/* Animation Class */
+.scroll-wrapper {
+display: flex;
+-webkit-animation: marquee 20s linear infinite;
+animation: marquee 20s linear infinite;
+}
+
+@-webkit-keyframes marquee {
+0% {
+    transform: translateX(0);
+}
+100% {
+    transform: translateX(-100%);
+}
+}
+@keyframes marquee {
+0% {
+    transform: translateX(0);
+}
+100% {
+    transform: translateX(-100%);
+}
+}
