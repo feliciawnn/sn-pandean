@@ -212,7 +212,7 @@ animation: marquee 20s linear infinite;
 
 /* MAPS */
 .gmaps{
-    /*width: 100%;*/
+    width: 100%;
 }
 
 /* ICONS */
@@ -221,7 +221,7 @@ animation: marquee 20s linear infinite;
 }
 
 .red{
-    color:
+    color: red;
 }
 
 /* MEDIA QUERIES */
