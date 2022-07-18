@@ -24,7 +24,7 @@ html{
 }
 
 .images-container{
-    height: 100vh;
+    height: 75vh;
 }
 
 .main-title-container{
@@ -97,6 +97,10 @@ button{
 
 .section-content-bottom{
     margin-top: 8px;
+}
+
+.grey-bg{
+    background-color: #d3d3d3;
 }
 
 .content-card{
