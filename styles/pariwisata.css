@@ -215,6 +215,15 @@ animation: marquee 20s linear infinite;
     /*width: 100%;*/
 }
 
+/* ICONS */
+.green{
+    color: #005738;
+}
+
+.red{
+    color:
+}
+
 /* MEDIA QUERIES */
 /* Extra small devices (phones, 600px and down) */
 @media(max-width: 600px) {
