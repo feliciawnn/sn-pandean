@@ -100,7 +100,7 @@ button{
 }
 
 .content-card{
-    background-color: #021C10;
+    background-color: #005738;
     color: #fff;
     padding: 10px;
     border-radius: 10px;
@@ -127,7 +127,7 @@ ul{
 
 /* GALLERY */
 .gallery-container{
-    background-color: #021C10;
+    background-color: #005738;
     padding-bottom: 8px;
     overflow: hidden;
 }

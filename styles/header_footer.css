@@ -73,13 +73,13 @@ body{
 }
 
 .nav-active{
-    background-color: #631022;
+    background-color: #005738;
     font-weight: bold;
 }
 
 /* FOOTER */
 .page-footer{
-    background-color: #631022;
+    background-color: #005738;
     padding-bottom: 8px;
 }
 
