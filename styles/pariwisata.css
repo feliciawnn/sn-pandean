@@ -1,11 +1,11 @@
-body{
+html{
     overflow-x: hidden;
 }
 
 /* VIDEO BG */
 #img-bg{
     width: 100%;
-    height: 70%;
+    height: 100%;
     object-fit: cover;
     position: absolute;
     top: 0;
@@ -19,17 +19,17 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    height: 70%;
+    height: 100%;
     background-color: rgba(0,0,0,0.5);
 }
 
 .images-container{
-    height: 40vh;
+    height: 100vh;
 }
 
 .main-title-container{
     position: absolute;
-    top: 22vh;
+    top: 50vh;
     left: 48px;
 }
 
@@ -56,6 +56,10 @@ button{
 }
 
 /* SECTIONS */
+.content{
+    position: relative;  
+}
+
 .section-title{
     text-align: center;
     font-size: 48px;
@@ -83,7 +87,7 @@ button{
 }
 
 .section-content-left{
-    margin: 0 48px;
+    padding: 0 0 0 48px;
     width: 100%;
 }
 
@@ -200,4 +204,28 @@ animation: marquee 20s linear infinite;
 100% {
     transform: translateX(-100%);
 }
+}
+
+/* MAPS */
+.gmaps{
+    /*width: 100%;*/
+}
+
+/* MEDIA QUERIES */
+/* Extra small devices (phones, 600px and down) */
+@media(max-width: 600px) {
+    .nav-elem{width:300px;}
+    .vid-txt{font-size:24px;}
+    .section-title{font-size:36px;}
+    .section-subtitle{margin-bottom: 12px;}
+    h2 {font-size: 16px;}
+    h4{font-size: 16px;}
+    .section-content-left{padding:0;}
+    li, p, .section-desc, .vid-subtxt{font-size: 14px;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    .vid-txt{font-size:40px;}
+    li, p, .section-desc, .vid-subtxt{font-size: 20px;}
 }
