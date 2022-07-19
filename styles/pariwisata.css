@@ -68,7 +68,6 @@ button{
 
 .section{
     margin-bottom: 48px;
-    animation: ease-in 5s;
 }
 
 .section-subtitle{
@@ -93,6 +92,7 @@ button{
 
 .txt-left{
     text-align: left;
+    font-size: 30px;
 }
 
 .section-content-left{
@@ -175,6 +175,10 @@ button{
     padding-bottom: 24px;
 }
 
+.clickcard-wrapper{
+    margin: 12px 0;
+}
+
 .click-card{
     background-color: #fff;
     color: #005738;
@@ -182,6 +186,7 @@ button{
     padding: 20px;
     height: 100%;
     width: 95%;
+    margin: 8px 0;
 }
 
 .click-card:hover{
@@ -274,12 +279,13 @@ button{
 @media(max-width: 600px) {
     .nav-elem{width:300px;}
     .vid-txt{font-size:24px;}
-    .section-title{font-size:36px;}
+    .section-title{font-size:28px;}
     .section-subtitle{margin-bottom: 12px;}
     h2 {font-size: 16px;}
     h4{font-size: 16px;}
     .section-content-left{padding:0;}
-    li, p, .section-desc, .vid-subtxt{font-size: 14px;}
+    li, p, .section-desc, .vid-subtxt, .click-card p{font-size: 14px;}
+    .section{margin-bottom: 24px;}
     .four-big{height:30vh;}
     .four-sm{height:20vh;}
     .ver-center{padding: 24px 0;}
@@ -289,6 +295,7 @@ button{
     .htm p{font-size: 12px;}
     .htm{padding:0px; border-radius: 8px;}
     .htm-icon{margin-left:20px;}
+    .txt-left{font-size: 24px;}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
