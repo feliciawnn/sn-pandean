@@ -30,7 +30,8 @@ html{
 .main-title-container{
     position: absolute;
     top: 50vh;
-    left: 48px;
+    width: 90%;
+    overflow-x: hidden;
 }
 
 button{
@@ -61,7 +62,7 @@ button{
 }
 
 .section-title{
-    text-align: center;
+    text-align: left;
     font-size: 48px;
 }
 
@@ -72,6 +73,7 @@ button{
 
 .section-subtitle{
     text-align: center;
+    font-size: 18px;
     margin-bottom: 24px;
 }
 
@@ -82,8 +84,15 @@ button{
 }
 
 .ver-center{
-    display:flex;
-    align-items:center;
+    padding: 40% 0;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+.txt-left{
+    text-align: left;
 }
 
 .section-content-left{
@@ -99,35 +108,52 @@ button{
     margin-top: 8px;
 }
 
-.grey-bg{
-    background-color: #d3d3d3;
+.green-section{
+    background-color: #005738;
+    transform: translateY(-10px);
 }
 
-.content-card{
+.white-txt{
+    color: #fff;
+}
+
+.section-img{
+    width: 100%;
+    max-height: 50vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.section-top{
+    padding-top: 48px;
+}
+
+.section-bottom{
+    padding-bottom: 48px;
+}
+
+/* CONTACT CARD */
+.contact-card{
     background-color: #005738;
     color: #fff;
-    padding: 10px;
     border-radius: 10px;
-    text-align: center;
-    height: 100%;
 }
 
-ul{
-    list-style: none;
+.card-top{
+    margin-top: 12px;
 }
 
-.content-list{
-    text-align: left;
+.card-bottom{
+    margin-bottom: 12px;
 }
 
-.content-list li::before {
-    content: "\2022";  
-    color: #fff; 
-    font-weight: bold; 
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em; 
-  }
+/* THREE HORIZONTAL IMG */
+.three-hor-img{
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    padding-bottom: 16px;
+}
 
 /* GALLERY */
 .gallery-container{
@@ -210,18 +236,77 @@ animation: marquee 20s linear infinite;
 }
 }
 
+/* TICKET PRICES */
+.htm{
+    background-color: rgba(0,87,56,0.5);
+    color: #fff;
+    padding: 18px;
+    border-radius: 10px;
+    margin: 24px 0;
+}
+
+.htm p{
+    display: inline;
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+.htm-icon{
+    width:40px;
+    height:40px;
+}
+
+/* VID SECTION */
+#vid-section{
+    width: 100vw;
+}
+
+/* 4 IMAGE ALIGNMENT */
+.four-big, .four-sm{
+    width: 100%;
+    object-fit: cover;
+    margin: 16px 0;
+    border-radius: 10px;
+}
+
+.four-big{
+    height: 70vh;
+}
+
+.four-sm{
+    height:50vh;
+}
+
+/* 3 IMAGES ALIGNMENT */
+.three-img-top{
+    max-height: 60vh;
+    width: 100%;
+    transform: translateY(-24px);
+    border-radius: 10px;
+}
+
+.three-big-bottom{
+    max-height: 60vh;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 48px;
+}
+
+.three-sm-bottom{
+    max-height: 40vh;
+    width: 70%;
+    border-radius: 10px;
+    float: right;    
+}
+
+.tagline{
+    margin: 48px 0;
+    text-align: right;
+}
+
 /* MAPS */
 .gmaps{
     width: 100%;
-}
-
-/* ICONS */
-.green{
-    color: #005738;
-}
-
-.red{
-    color: red;
 }
 
 /* MEDIA QUERIES */
@@ -235,10 +320,26 @@ animation: marquee 20s linear infinite;
     h4{font-size: 16px;}
     .section-content-left{padding:0;}
     li, p, .section-desc, .vid-subtxt{font-size: 14px;}
+    .four-big{height:30vh;}
+    .four-sm{height:20vh;}
+    .ver-center{padding: 24px 0;}
+    .three-img-top{transform: translate(0,0); margin-bottom: 24px;}
+    .three-sm-bottom{width:100%;}
+    .tagline{margin-top:12px 0;}
+    .htm p{font-size: 12px;}
+    .htm{padding:0px; border-radius: 8px;}
+    .htm-icon{margin-left:20px;}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
     .vid-txt{font-size:40px;}
     li, p, .section-desc, .vid-subtxt{font-size: 20px;}
+    .ver-center{padding: 24px 0;}
+    .three-img-top{transform: translate(0,0); margin-bottom: 24px;}
+    .three-sm-bottom{width:100%;}
+    .tagline{margin-top:12px 0;}
+    .htm p{font-size: 16px;}
+    .htm{padding:8px; border-radius: 8px;}
+    .htm-icon{margin-left:20px;}
 }
