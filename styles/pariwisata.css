@@ -293,7 +293,7 @@ button{
     .three-sm-bottom{width:100%;}
     .tagline{margin-top:12px 0;}
     .htm p{font-size: 12px;}
-    .htm{padding:0px; border-radius: 8px;}
+    .htm{padding:0px;}
     .htm-icon{margin-left:20px;}
     .txt-left{font-size: 24px;}
 }
@@ -307,6 +307,6 @@ button{
     .three-sm-bottom{width:100%;}
     .tagline{margin-top:12px 0;}
     .htm p{font-size: 16px;}
-    .htm{padding:8px; border-radius: 8px;}
+    .htm{padding:8px;}
     .htm-icon{margin-left:20px;}
 }
