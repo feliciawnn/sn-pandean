@@ -1,3 +1,8 @@
+html{
+    overflow-x: hidden;
+    width: 100%;
+}
+
 /* HEADER */
 .overlay{
     position: absolute;
@@ -47,6 +52,8 @@
 /* SECTIONS */
 .content{
     position: relative;  
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .section-title{
@@ -223,10 +230,10 @@
     .img-txt{font-size:24px;}
     .section-title{font-size:28px;}
     .section-subtitle{margin-bottom: 12px;}
-    h2 {font-size: 16px;}
+    h2 {font-size: 18px;}
     h4{font-size: 16px;}
     .section-content-left{padding:0;}
-    li, p, .section-desc, .img-subtxt, .click-card p{font-size: 14px;}
+    li, p, .section-desc, .img-subtxt, .click-card p, .gal-subtitle{font-size: 14px;}
     .section{margin-bottom: 24px;}
     .ver-center{padding: 24px 0;}
     .txt-left{font-size: 24px;}
@@ -235,6 +242,9 @@
     .sec-down-top .clickable-img{margin-top: 0;}
     .sec-down-bottom, .sec-up-bottom{display: none;}
     .sec-up-top-sm{transform: translateY(28px);}
+    .clickable-img{height:40vh;}
+    .button-hyperlink{left: 8px;right:8px;font-size:12px;}
+    .whole-screen-img, .button-container{height:200px;}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
