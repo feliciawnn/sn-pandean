@@ -221,6 +221,7 @@ html{
 
 .coffee-img:hover{
     content: url('../media/5.jpg');
+    transition: 2s ease-in;
 }
 
 /* MEDIA QUERIES */
@@ -248,7 +249,7 @@ html{
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width:768px){
     .img-txt{font-size:40px;}
     li, p, .section-desc, .img-subtxt{font-size: 20px;}
     .ver-center{padding: 24px 0;}
