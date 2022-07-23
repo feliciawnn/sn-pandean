@@ -41,7 +41,7 @@ button{
 .vid-txt{
     color: #fff;
     text-align: left;
-    font-size: 60px;
+    font-size:56px;
 }
 
 .vid-subtxt{
@@ -296,6 +296,8 @@ button{
     .htm{padding:0px;}
     .htm-icon{margin-left:20px;}
     .txt-left{font-size: 24px;}
+    .images-container{height: 70vh;}
+    .main-title-container{padding-left: 12px;}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
