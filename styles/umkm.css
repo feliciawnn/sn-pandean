@@ -213,6 +213,12 @@ html{
     height: 50px;
 }
 
+.button-hyperlink:hover{
+    background-color: #fff;
+    color: #005738;
+    transition: 0.5s;
+}
+
 /* COFFEE SECTION */
 .coffee-img{
     border-radius: 20px;
