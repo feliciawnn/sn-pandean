@@ -2,110 +2,10 @@ html{
     overflow-x: hidden;
 }
 
-/* VIDEO BG */
-#img-bg{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -3;
-}
-
-.overlay{
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.5);
-}
-
-.images-container{
-    height: 75vh;
-}
-
-.main-title-container{
-    position: absolute;
-    top: 50vh;
-    width: 90%;
-    overflow-x: hidden;
-}
-
-button{
-    color: rgba(0,0,0,0.5);
-}
-
-.vid-txt{
-    color: #fff;
-    text-align: left;
-    font-size:56px;
-}
-
-.vid-subtxt{
-    color: #fff;
-    text-align: left;
-    font-size: 26px;
-    padding-bottom: 24px;
-}
-
-.vid-icon{
-    text-align: center;
-    animation: MoveUpDown 1s linear infinite;
-}
-
 /* SECTIONS */
-.content{
-    position: relative;  
-}
-
-.section-title{
-    text-align: left;
-    font-size: 48px;
-}
-
-.section{
-    margin-bottom: 48px;
-}
-
-.section-subtitle{
-    text-align: center;
-    font-size: 18px;
-    margin-bottom: 24px;
-}
-
-.section-desc{
-    font-size: 18px;
-    text-align: center;
-    padding: 24px 0;
-}
-
-.ver-center{
-    padding: 40% 0;
-}
-
-.txt-center{
-    text-align: center;
-}
-
-.txt-left{
-    text-align: left;
-    font-size: 30px;
-}
-
 .section-content-left{
     padding: 0 0 0 48px;
     width: 100%;
-}
-
-.section-content-top{
-    margin-bottom: 8px;
-}
-
-.section-content-bottom{
-    margin-top: 8px;
 }
 
 .green-section{
@@ -122,14 +22,6 @@ button{
     max-height: 50vh;
     object-fit: cover;
     border-radius: 10px;
-}
-
-.section-top{
-    padding-top: 48px;
-}
-
-.section-bottom{
-    padding-bottom: 48px;
 }
 
 /* CONTACT CARD */
@@ -322,20 +214,13 @@ button{
 /* Extra small devices (phones, 600px and down) */
 @media(max-width: 600px) {
     .nav-elem{width:300px;}
-    .vid-txt{font-size:24px;}
-    .section-title{font-size:28px;}
-    .section-subtitle{margin-bottom: 12px;}
-    h2 {font-size: 16px;}
-    h4{font-size: 16px;}
     .section-content-left{padding:0;}
-    li, p, .section-desc, .vid-subtxt, .click-card p{font-size: 14px;}
-    .section{margin-bottom: 24px;}
+    li, .click-card p{font-size: 14px;}
     .four-big{height:30vh;}
     .four-sm{height:20vh;}
     .ver-center{padding: 24px 0;}
     .three-img-top{transform: translate(0,0); margin-bottom: 24px;}
     .three-sm-bottom{width:100%;}
-    .tagline{margin-top:12px 0;}
     .htm p{font-size: 12px;}
     .htm{padding:0px;}
     .htm-icon{margin-left:20px;}
@@ -346,8 +231,8 @@ button{
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
-    .vid-txt{font-size:40px;}
-    li, p, .section-desc, .vid-subtxt{font-size: 20px;}
+    .img-txt{font-size:40px;}
+    li, p, .section-desc, .img-subtxt{font-size: 20px;}
     .ver-center{padding: 24px 0;}
     .three-img-top{transform: translate(0,0); margin-bottom: 24px;}
     .three-sm-bottom{width:100%;}
