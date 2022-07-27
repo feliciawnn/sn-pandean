@@ -14,14 +14,6 @@ body{
 }
 
 /* NAVIGATION BAR STYLING */
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
 .top-navbar{
     display: inline-block;
 }
@@ -169,34 +161,27 @@ li{
 
 /* HEADER IMAGES OVERLAY */
 .overlay{
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color:rgba(0,0,0,0.5);
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    max-width:100%;
+    height:100vh;
 }
 
-#img-bg{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.header-txt{
     position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -3;
+    bottom:30%;
+    padding-left:48px;
+    color:#fff;
+    width:100%;
 }
 
-.images-container{
-    height: 75vh;
-}
-
-.main-title-container{
-    position: absolute;
-    top: 50vh;
-    width: 90%;
-    overflow-x: hidden;
+.img-bg{
+    height:100vh;
+    background-size: cover;
+    position:relative;
 }
 
 .img-txt{
@@ -230,7 +215,8 @@ li{
 }
 
 .section-top{
-    margin-top: 48px;
+    padding-top: 48px;
+    padding-bottom: 12px;
 }
 
 .section-subtitle{
@@ -273,6 +259,10 @@ li{
     padding-bottom: 48px;
 }
 
+.abs-center{
+    margin: auto;
+}
+
 
 /* MEDIA QUERIES */
 /* Extra small devices (phones, 600px and down) */
@@ -289,12 +279,15 @@ li{
     .section-title{font-size:28px;}
     .section-subtitle{margin-bottom: 12px;}
     .section{margin-bottom: 24px;}
+    .section-top{padding-top: 24px;}
+    .section-bottom{padding-bottom: 24px;}
 
     .main-title-container{padding-left: 12px;}
 
     h2 {font-size: 24px;}
     h4{font-size: 16px;}
     p, .section-desc, .img-subtxt{font-size: 14px;}
+    .phone-hidden{display: none;}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

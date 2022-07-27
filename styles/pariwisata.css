@@ -8,6 +8,11 @@ html{
     width: 100%;
 }
 
+/* HEADER */
+.img-bg{
+    background-image: url(../media/pariwisata_header.jpg); 
+}
+
 .green-section{
     background-color: #005738;
     transform: translateY(-10px);
@@ -45,6 +50,7 @@ html{
     max-height: 100%;
     object-fit: cover;
     padding-bottom: 16px;
+    border-radius: 10px;
 }
 
 /* CLICKABLE BOXES */
@@ -119,6 +125,10 @@ html{
 }
 
 /* 4 IMAGE ALIGNMENT */
+.four-container{
+    padding: 12px 15vw;
+}
+
 .four-big, .four-sm{
     width: 100%;
     object-fit: cover;
@@ -200,7 +210,7 @@ html{
     top: 0;
     bottom: 0;
     margin: auto;
-    height: 50px;
+    height: fit-content;
 }
 
 .button-hyperlink:hover{
@@ -225,12 +235,11 @@ html{
     .htm{padding:0px;}
     .htm-icon{margin-left:20px;}
     .txt-left{font-size: 24px;}
-    .images-container{height: 70vh;}
-    .main-title-container{padding-left: 12px;}
+    .four-container{padding:0;}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) and (max-width: 1000px) {
+@media only screen and (min-width: 600px) and (max-width: 768px) {
     .img-txt{font-size:40px;}
     li, p, .section-desc, .img-subtxt{font-size: 20px;}
     .ver-center{padding: 24px 0;}
@@ -240,4 +249,9 @@ html{
     .htm p{font-size: 16px;}
     .htm{padding:8px;}
     .htm-icon{margin-left:20px;}
+    .four-container{padding:0;}
+}
+
+@media only screen and (min-width: 768px){
+    .section-div-txt{font-size:25px;}
 }

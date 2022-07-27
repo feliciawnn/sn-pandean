@@ -19,58 +19,54 @@
         <link rel="shortcut icon" href="./media/logo.ico">
     </head>
     <body>
-         <!-- HEADER -->
-         <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand compadre-font main-title" href="./index.html">DESA PANDEAN</a>
-                <button class="navbar-toggler hamburger-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">
-                        <svg style="text-align: center;" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="black" class="bi bi-list" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                        </svg>
-                    </span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-buttons">
-                    <li class="nav-item">
-                        <a class="nav-link nav-elem" href="./index.html">Beranda</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-elem" href="./pariwisata.html">Pariwisata</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-elem nav-active" href="./umkm.html">UMKM</a>
-                    </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <div class="header container">
-            <div class="overlay"></div>
-            <img src="./media/5.jpg" id="img-bg">
-        </div>
-
-        <div class="container p-0 images-container">
-            <div class="row main-title-container">
-                <div class="col-10">
-                    <div class="row">
-                        <h3 class="img-subtxt">Desa Pandean mengajak Anda untuk menikmati suasana pegunungan dan perkebunan asri. Mari menikmati liburan aksesibel, mudah dan unik bersama kami</h3>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="col">
-                                <h1 class="img-txt compadre-font">
-                                    Belanja di Pandean
-                                </h1>
-                            </div>
-                        </div>
+        <!-- HEADER -->
+        <div class="container-fluid img-bg">
+            <nav class="navbar navbar-expand-lg" style="z-index: 1;">
+                <div class="container-fluid">
+                    <a class="navbar-brand compadre-font main-title" href="./index.html" style="left:0;">DESA PANDEAN</a>
+                    <button class="navbar-toggler hamburger-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" style="right:24px;">
+                        <span class="navbar-toggler-icon">
+                            <svg style="text-align: center;" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="black" class="bi bi-list" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02" style="right:0">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-buttons" style="right:0;">
+                        <li class="nav-item">
+                            <a class="nav-link nav-elem" href="./index.html">Beranda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-elem" href="./pariwisata.html">Pariwisata</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-elem nav-active" href="./umkm.html">UMKM</a>
+                        </li>
+                        </ul>
                     </div>
                 </div>
-            </div>
-        </div>
-
-
+            </nav>
+       </div>
+       
+       <div class="container-fluid overlay"></div>
+       <div class="container-fluid header-txt">
+           <div class="row">
+               <div class="col-10">
+                   <div class="row">
+                       <h3 class="img-subtxt">Desa Pandean mengajak Anda untuk menikmati suasana pegunungan dan perkebunan asri. Mari menikmati liburan aksesibel, mudah dan unik bersama kami.</h3>
+                   </div>
+                   <div class="row">
+                       <div class="col">
+                           <div class="col">
+                               <h1 class="img-txt compadre-font">
+                                   Belanja di Pandean
+                               </h1>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
         <div class="content">
             <div class="container-fluid gallery-container green-section">
                 <div class="container">
@@ -85,7 +81,7 @@
                             <img src="./media/show_a.jpg" class="clickable-img sec-up-top">
                         </div>
                         <div class="col-6 col-md-4" data-aos="fade-up">
-                            <img src="./media/2.jpg" class="clickable-img sec-down-top">
+                            <img src="./media/show_a.jpg" class="clickable-img sec-down-top">
                         </div>
                         <div class="col-6 col-md-4" data-aos="fade-up">
                             <img src="./media/show_c.jpg" class="clickable-img sec-up-top sec-up-top-sm">
@@ -97,7 +93,7 @@
                             <img src="./media/hide_a.jpg" class="clickable-img sec-up-bottom">
                         </div>
                         <div class="col-4" data-aos="fade-up">
-                            <img src="./media/5.jpg" class="clickable-img sec-down-bottom">
+                            <img src="./media/hide_a.jpg" class="clickable-img sec-down-bottom">
                         </div>
                         <div class="col-4" data-aos="fade-up">
                             <img src="./media/hide_c.jpg" class="clickable-img sec-up-bottom">
@@ -107,10 +103,10 @@
             </div>
 
             <div class="whole-screen-img-container ">
-                <img src="./media/7.jpg" class="whole-screen-img">  
+                <img src="./media/homegal_4.jpg" class="whole-screen-img">  
             </div>
             <div class="button-container section" data-aos="fade-up">              
-                <a class="button-hyperlink" href="./media/004VII2022_CarinaGunawan_DesaPandan.pdf" download="invoice_test" target="_blank">Kenali kuliner Desa Pandean lebih lanjut di sini!</a>
+                <!--download pdf--><a class="button-hyperlink" href="#" download="invoice_test" target="_blank"><p class="abs-center">Kenali kuliner Desa Pandean lebih lanjut di sini!</p></a>
             </div>
 
             <div class="container section" data-aos="fade-up">
@@ -120,36 +116,36 @@
             
                 <div class="row">
                     <div class="col-6 col-md-3 coffee-wrapper" data-aos="fade-right">
-                        <img class="coffee-img" id="rnf" src="./media/4.jpg">
+                        <img class="coffee-img" id="rnf" src="./media/homegal_3.jpg">
                         <p class="txt-center">Robusta Natural Fine</p>
                     </div>
                     <div class="col-6 col-md-3" data-aos="fade-right">
-                        <img class="coffee-img" id="ras" src="./media/4.jpg">
+                        <img class="coffee-img" id="ras" src="./media/homegal_2.jpg">
                         <p class="txt-center">Robusta Aslan Sortase</p>
                     </div>
                     <div class="col-6 col-md-3" data-aos="fade-left">
-                        <img class="coffee-img" id="rhf" src="./media/4.jpg">
+                        <img class="coffee-img" id="rhf" src="./media/homegal_6.jpg">
                         <p class="txt-center">Robusta Honey Fine</p>
                     </div>
                     <div class="col-6 col-md-3" data-aos="fade-left">
-                        <img class="coffee-img" id="tsw" src="./media/4.jpg">
+                        <img class="coffee-img" id="tsw" src="./media/homegal_1.jpg">
                         <p class="txt-center">Telomoyo Semi Wash</p>
                     </div>
                 </div>
             </div>
 
             <div class="whole-screen-img-container">
-                <img src="./media/7.jpg" class="whole-screen-img">  
+                <img src="./media/homegal_3.jpg" class="whole-screen-img">  
             </div>
             <div class="button-container section" data-aos="fade-up">              
-                <a class="button-hyperlink" href="./media/004VII2022_CarinaGunawan_DesaPandan.pdf" download="invoice_test" target="_blank">Lihat katalog selengkapnya di sini!</a>
+                <a class="button-hyperlink" href="#" download="invoice_test" target="_blank"><p class="abs-center">Lihat katalog selengkapnya di sini!</p></a>
             </div>
 
             <div class="whole-screen-img-container">
-                <img src="./media/7.jpg" class="whole-screen-img">  
+                <img src="./media/homegal_2.jpg" class="whole-screen-img">  
             </div>
-            <div class="button-container section" data-aos="fade-up">              
-                <a class="button-hyperlink" href="./media/004VII2022_CarinaGunawan_DesaPandan.pdf" download="invoice_test" target="_blank">Untuk informasi selengkapnya</a>
+            <div class="button-container" data-aos="fade-up">              
+                <a class="button-hyperlink" href="#" download="invoice_test" target="_blank"><p class="abs-center">Untuk informasi selengkapnya</p></a>
             </div>
 
         </div>

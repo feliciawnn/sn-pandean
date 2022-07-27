@@ -3,14 +3,16 @@ html{
     width: 100%;
 }
 
-/* HEADER */
 
+/* HEADER */
+.img-bg{
+    background-image: url(../media/pariwisata_header.jpg); 
+}
 
 /* SECTIONS */
 .green-section{
     background-color: #005738;
 }
-
 
 /* GALLERY */
 .gallery-container{
@@ -120,7 +122,7 @@ html{
 }
 
 .coffee-img:hover{
-    content: url('../media/5.jpg');
+    content: url('../media/hide_c.jpg');
     transition: 2s ease-in;
 }
 
