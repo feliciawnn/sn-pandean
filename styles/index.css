@@ -150,7 +150,7 @@ button{
 .gallery-container{
     background-color: #005738;
     padding-bottom: 8px;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .gal-title, .gal-subtitle{
