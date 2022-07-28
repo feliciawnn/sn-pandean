@@ -47,10 +47,8 @@ html{
 /* THREE HORIZONTAL IMG */
 .three-hor-img{
     width: 100%;
-    /*max-height: 100%;*/
     object-fit: cover;
     padding-bottom: 16px;
-    /*border-radius: 10px;*/
 }
 
 /* CLICKABLE BOXES */
@@ -140,6 +138,7 @@ html{
     width: 100%;
     transform: translateY(-24px);
     border-radius: 10px;
+    object-fit: cover;
 }
 
 .three-big-bottom{
@@ -147,6 +146,7 @@ html{
     width: 100%;
     border-radius: 10px;
     margin-bottom: 48px;
+    object-fit: cover;
 }
 
 .three-sm-bottom{
@@ -154,6 +154,7 @@ html{
     width: 70%;
     border-radius: 10px;
     float: right;    
+    object-fit: cover;
 }
 
 .tagline{
