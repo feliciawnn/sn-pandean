@@ -227,6 +227,7 @@ html{
     .htm-icon{margin-left:20px;}
     .txt-left{font-size: 24px;}
     .four-container{padding:0;}
+    .img-bg{background-image: url(../media/dummy_phone_header.jpeg);}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
