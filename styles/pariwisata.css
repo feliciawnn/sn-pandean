@@ -54,37 +54,24 @@ html{
 }
 
 /* CLICKABLE BOXES */
-.gallery-container{
-    background-color: #005738;
-    padding-bottom: 48px;
-    overflow: hidden;
-}
-
 .gal-title, .gal-subtitle{
     color: #fff;
     text-align: center;
-}
-
-.gal-title{
-    padding-top: 48px;
 }
 
 .gal-subtitle{
     padding-bottom: 24px;
 }
 
-.clickcard-wrapper{
-    margin: 12px 0;
-}
-
 .click-card{
     background-color: #fff;
-    color: #005738;
-    border-radius: 10px;
-    padding: 20px;
+    font-weight: bold;
+    color:#005738;
+    padding:12px; 
+    min-height: 20vw;   
     height: 100%;
-    width: 95%;
-    margin: 8px 0;
+    text-align: center;
+    border-radius: 10px;
 }
 
 .click-card:hover{
@@ -96,7 +83,10 @@ html{
 .click-card p{
     text-align: center;
     font-size: 24px;
-    padding: 10% 12px 0 12px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* TICKET PRICES */
@@ -183,7 +173,7 @@ html{
 
 .whole-screen-img{
     width: 100%;
-    height: 400px;
+    height: 58vh;
     margin:0;
     object-fit: cover;
     z-index: -1;
@@ -192,8 +182,7 @@ html{
 
 .button-container{
     position: relative;
-    height: 400px;
-    
+    height: 58vh; 
 }
 
 .button-hyperlink{
@@ -225,7 +214,9 @@ html{
 @media(max-width: 600px) {
     .nav-elem{width:300px;}
     .section-content-left{padding:0;}
-    li, .click-card p{font-size: 14px;}
+    li, .click-card p{font-size: 10px;}
+    .click-card{min-height: 40vw;}
+    .click-card-container{margin-bottom: 12px;}
     .four-big{height:30vh;}
     .four-sm{height:20vh;}
     .ver-center{padding: 24px 0;}
@@ -242,6 +233,9 @@ html{
 @media only screen and (min-width: 600px) and (max-width: 768px) {
     .img-txt{font-size:40px;}
     li, p, .section-desc, .img-subtxt{font-size: 20px;}
+    .click-card p{font-size: 16px;}
+    .click-card{min-height: 20vw;}
+    .click-card-container{margin-bottom: 12px;}
     .ver-center{padding: 24px 0;}
     .three-img-top{transform: translate(0,0); margin-bottom: 24px;}
     .three-sm-bottom{width:100%;}
