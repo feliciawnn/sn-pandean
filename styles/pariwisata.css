@@ -47,10 +47,10 @@ html{
 /* THREE HORIZONTAL IMG */
 .three-hor-img{
     width: 100%;
-    max-height: 100%;
+    /*max-height: 100%;*/
     object-fit: cover;
     padding-bottom: 16px;
-    border-radius: 10px;
+    /*border-radius: 10px;*/
 }
 
 /* CLICKABLE BOXES */
@@ -249,7 +249,7 @@ html{
     .htm p{font-size: 16px;}
     .htm{padding:8px;}
     .htm-icon{margin-left:20px;}
-    .four-container{padding:0;}
+    .four-container{padding:0;} 
 }
 
 @media only screen and (min-width: 768px){
