@@ -112,6 +112,13 @@ html{
     width: 100vw;
 }
 
+.vid-profile{
+    max-height: 90vh;
+    max-width: 70vw;
+    margin: 12px auto;
+    display: block;
+}
+
 /* 4 IMAGE ALIGNMENT */
 .four-container{
     padding: 12px 15vw;
