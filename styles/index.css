@@ -31,6 +31,11 @@
     font-size: 48px;
 }
 
+/* INTRO VIDEO */
+.intro-video{
+    width:100%;
+}
+
 /* CARDS */
 .card-elem{
     background-color: rgb(73, 73, 72);
@@ -178,7 +183,7 @@ button{
 }
 
 .scroll-track {
-    max-width: 7000vh;
+    max-width: 8000vh;
     margin: auto;
     padding: 16px;
     position: relative;

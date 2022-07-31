@@ -120,8 +120,23 @@ html{
     width: 100%;
 }
 
-.coffee-img:hover{
+#tsw:hover{
     content: url('../media/hide_c.jpg');
+    transition: 2s ease-in;
+}
+
+#rnf:hover{
+    content:url(../media/homegal_3.jpg);
+    transition: 2s ease-in;
+}
+
+#ras:hover{
+    content:url(../media/homegal_4.jpg);
+    transition: 2s ease-in;
+}
+
+#rhf:hover{
+    content:url(../media/homegal_5.jpg);
     transition: 2s ease-in;
 }
 
